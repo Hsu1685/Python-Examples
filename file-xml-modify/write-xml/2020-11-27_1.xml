@@ -1,0 +1,25 @@
+<annotation>
+	<folder>train_images</folder>
+	<filename>2020-11-27_1.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>425</xmin>
+			<ymin>169</ymin>
+			<xmax>993</xmax>
+			<ymax>713</ymax>
+		</bndbox>
+	</object>
+</annotation>

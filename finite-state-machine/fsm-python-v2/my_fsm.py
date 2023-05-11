@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# my_fsm.py
+
+from src.app import main
+
+if __name__ == "__main__":
+    main()

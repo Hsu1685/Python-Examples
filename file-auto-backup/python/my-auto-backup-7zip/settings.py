@@ -1,0 +1,4 @@
+COVERAGE = "C:\\Users\\tw019032\\Documents\\WinAMS\\TEST_20210111"
+CASE2 = "C:\\winAMS_CM1\\TEST_20210111"
+SOURCE1 = "D:\\P\\20200603-TOUGOU_ECU-P06j\\trunk\\Sources"
+SOURCE2 = "D:\\P\\20200603-TOUGOU_ECU-P06j\\trunk\\Sources2"

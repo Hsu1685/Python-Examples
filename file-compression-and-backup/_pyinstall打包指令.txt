@@ -1,0 +1,5 @@
+﻿# 無終端機
+pyinstaller -F -w compression_and_backup.py
+
+#有終端機
+pyinstaller -F compression_and_backup.py

@@ -1,0 +1,18 @@
+Note left of RX_STEP_0: rx_step_0_func
+RX_STEP_0->RX_STEP_1 : EVENT_1
+Note left of RX_STEP_1: rx_step_1_func
+RX_STEP_1->RX_STEP_2 : EVENT_2
+Note left of RX_STEP_2: rx_step_2_func
+RX_STEP_2->RX_STEP_3 : EVENT_3
+Note left of RX_STEP_3: rx_step_3_func
+RX_STEP_3->RX_STEP_4 : EVENT_4
+Note left of RX_STEP_4: rx_step_4_func
+RX_STEP_4->RX_STEP_5 : EVENT_5
+Note left of RX_STEP_5: rx_step_5_func
+RX_STEP_5->RX_STEP_6 : EVENT_6
+Note left of RX_STEP_6: rx_step_6_func
+RX_STEP_6->RX_STEP_6 : EVENT_7
+Note left of RX_STEP_6: rx_step_6_func
+RX_STEP_6->RX_STEP_7 : EVENT_8
+Note left of RX_STEP_7: rx_step_7_func
+RX_STEP_7->RX_STEP_0 : EVENT_8
