@@ -1,0 +1,15 @@
+﻿轉換*.ui指令
+conda activate Python3_8
+pyuic5 ui_main_window.ui -o main_window.py
+
+pyuic5 ui_main_window.ui -o ui_main_window.py
+
+pyuic5 untitled.ui -o ui_untitled.py
+
+pyuic5 MainWindow.ui -o ui_main_window.py
+
+DNTW Desktop路徑
+C:\Users\tw019032\Anaconda3\envs\Python3_8\Lib\site-packages\qt5_applications\Qt\bin
+
+//打包main.py指令
+//pyinstaller -F -w main.py
