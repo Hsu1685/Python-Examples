@@ -1,0 +1,4 @@
+conda activate myenv
+/home/eric/anaconda3/envs/myenv/bin/python /home/eric/GitHub/python-training/web-crawler/pchome-auto-buy/my_pchome_autobuy.py
+
+/home/eric/anaconda3/envs/myenv/bin/python /home/eric/GitHub/python-training/web-crawler/pchome-auto-buy/my_pchome_autobuy2.py
