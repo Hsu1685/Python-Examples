@@ -15,6 +15,7 @@ class StateMachine(object):
 
     def event_handle(self, event):
         flag = False
+        event_function = None
         self._event = event
         for item in self._FSM_table_t:
             if self._event == item[self._EVENT]:
@@ -23,8 +24,8 @@ class StateMachine(object):
                     event_function = item[self._FUNCTION]
                     flag = True
                     break
-        if (flag):
-            if (event_function() == True):
+        if (flag) and (event_function != None):
+            if event_function() == True:
                 self._current_state = next_step
             flag = False
         else:
