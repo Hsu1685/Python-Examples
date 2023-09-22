@@ -1,4 +1,11 @@
+from enum import Enum
 from .finite_state_machine import StateMachine
+
+class Event(Enum):
+    NO_1, NO_2, NO_3, NO_4, NO_5, NO_6, NO_7, NO_8, NO_9 = range(1, 10)
+
+class Weekday(Enum):
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY = range(7)
 
 class RunFsm(StateMachine):
     def __init__(self, current_state):
